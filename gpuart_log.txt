@@ -17,3 +17,5 @@ https://hernandis.me/2017/03/20/como-hacer-un-makefile.html
 CUDA Development for Jetson with NVIDIA Nsight Eclipse Edition
 
 https://devblogs.nvidia.com/cuda-jetson-nvidia-nsight-eclipse-edition/
+
+
