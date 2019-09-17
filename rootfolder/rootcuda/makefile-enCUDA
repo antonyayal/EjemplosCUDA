@@ -1,0 +1,12 @@
+objects = foo.cu hellofun.o
+
+all: $(objects)
+	nvcc $(objects) -o app
+
+%.o: %.c
+	nvcc -x cu -I. -dc $< -o $@
+
+hellofun.o: hellofun.h hellofun.c
+	nvcc -g -c hellofun.o hellofun.c
+clean:
+	rm -f *.o app

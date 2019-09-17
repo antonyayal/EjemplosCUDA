@@ -1,0 +1,19 @@
+Separate Compilation and Linking of CUDA C++ Device Code
+
+https://devblogs.nvidia.com/separate-compilation-linking-cuda-device-code/#disqus_thread
+
+How to Implement Performance Metrics in CUDA C/C++
+
+https://devblogs.nvidia.com/how-implement-performance-metrics-cuda-cc/
+
+An Efficient Matrix Transpose in CUDA C/C++
+
+https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/
+
+Como hacer un Makefile
+
+https://hernandis.me/2017/03/20/como-hacer-un-makefile.html
+
+CUDA Development for Jetson with NVIDIA Nsight Eclipse Edition
+
+https://devblogs.nvidia.com/cuda-jetson-nvidia-nsight-eclipse-edition/

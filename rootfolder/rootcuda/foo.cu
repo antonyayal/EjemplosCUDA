@@ -7,13 +7,15 @@
 #include <stdio.h>
 #include "hellofun.h"
 
-//__global__ void foo() {}
+__global__ void foo() {
+    printf("Hola desde tarjeta\n");
+}
 
 int main(){
     
-  //foo<<<1,1>>>();
+  foo<<<1,1>>>();
 
-  //cudaDeviceSynchronize();
+  cudaDeviceSynchronize();
   //printf("CUDA error: %s\n", cudaGetErrorString(cudaGetLastError()));
     
 helloWorld();
